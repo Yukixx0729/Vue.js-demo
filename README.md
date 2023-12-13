@@ -8,7 +8,8 @@ Check out <https://vue-js-demo-yukixx0729.vercel.app/> for live demo.
 
 ---
 
-- RestAPI Javascript
+- Responsive design
+- RESTful API Javascript
 - Vue.js HTML CSS
 
 ### **App screenshot**

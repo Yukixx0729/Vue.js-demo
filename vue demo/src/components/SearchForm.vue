@@ -45,4 +45,14 @@ button:active {
 input {
   font-size: 1.5rem;
 }
+
+@media screen and (max-width: 450px) {
+  .form div {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+    align-items: center;
+  }
+}
 </style>

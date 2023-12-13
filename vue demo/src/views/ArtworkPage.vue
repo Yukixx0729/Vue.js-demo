@@ -10,5 +10,6 @@ import ArtworkData from '@/components/ArtworkData.vue'
 <style>
 h2 {
   text-align: center;
+  margin-top: 2rem;
 }
 </style>

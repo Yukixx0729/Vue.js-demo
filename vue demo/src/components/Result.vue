@@ -36,4 +36,10 @@ li a:hover {
   cursor: pointer;
   color: #a0c8c3;
 }
+
+@media screen and (max-width: 450px) {
+  li a {
+    font-size: 1rem;
+  }
+}
 </style>

@@ -15,16 +15,16 @@ artworkStore.artwork = await artworkStore.fetchArtData(`${id}`)
 
     <div class="imgContainer"><img :src="artworkStore.imageURL" alt="artwork picture" /></div>
     <div class="details">
-      <p>Author Details: {{ artworkStore.artwork.artist_display }}</p>
-      <p>Size: {{ artworkStore.artwork.dimensions }}</p>
+      <p><span>Author Details:</span> {{ artworkStore.artwork.artist_display }}</p>
+      <p><span>Size:</span> {{ artworkStore.artwork.dimensions }}</p>
 
       <ul>
-        Classification:
+        <span>Classification:</span>
         <li v-for="name in artworkStore.artwork.classification_titles">{{ name }}</li>
       </ul>
 
       <p>
-        Description:
+        <span>Description:</span>
         {{
           artworkStore.artwork.description
             ? artworkStore.artwork.description.slice(3, artworkStore.artwork.description.length - 5)
@@ -66,5 +66,23 @@ h3 {
   display: flex;
   flex-direction: column;
   gap: 1rem;
+}
+
+img {
+  max-width: 100%;
+}
+
+span {
+  font-weight: bold;
+  color: #ecebe9;
+}
+
+@media screen and (max-width: 850px) {
+  img {
+    max-width: 80%;
+  }
+  .wrapper ul {
+    flex-direction: column;
+  }
 }
 </style>
