@@ -18,7 +18,7 @@ import HomePage from './views/HomePage.vue'
 }
 
 #app {
-  margin: 1rem;
+  margin: 2rem;
 }
 html {
   color: #ecebe9;

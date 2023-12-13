@@ -24,7 +24,7 @@ const inputStore = useInputStore()
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 3rem;
+  margin-top: 100px;
   gap: 1rem;
   font-size: 1.5rem;
 }
