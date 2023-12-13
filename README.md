@@ -15,7 +15,7 @@ Check out <https://vue-js-demo-yukixx0729.vercel.app/> for live demo.
 
 ---
 
-<img src="./images/1.png" width="1000" />
-<img src="./images/2.png" width="1000" />
-<img src="./images/3.png" width="1000" />
-<img src="./images/4.png" width="1000" />
+<img src="./Images/1.png" width="1000" />
+<img src="./Images/2.png" width="1000" />
+<img src="./Images/3.png" width="1000" />
+<img src="./Images/4.png" width="1000" />
